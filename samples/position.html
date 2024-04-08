@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      #space-nav-bar {
+        height: 50px;
+      }
+
+      .nav-bar {
+        width: 100vw;
+        background-color: rgb(66, 66, 66);
+        padding: 8px;
+        display: flex;
+        align-items: center; /* vertical */
+        justify-content: space-between; /* horizontal */
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        /* right: 0;
+        bottom: 0; */
+      }
+
+      .nav-item {
+        color: white;
+        text-decoration: none;
+        padding: 8px;
+
+        transition: all 0.3s;
+      }
+
+      .nav-item:hover {
+        background-color: rgb(110, 110, 110);
+      }
+
+      .content {
+        padding: 20px;
+        height: calc(100vh + 50px);
+      }
+
+      .text-content {
+        font-size: 25px;
+      }
+
+      @media (width <= 420px) {
+        .nav-bar {
+          flex-direction: column;
+          gap: 8px;
+        }
+
+        #space-nav-bar {
+          height: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="space-nav-bar"></div>
+    <nav class="nav-bar">
+      <a href="#" class="nav-item">Inicio</a>
+      <a href="#" class="nav-item">Acerca de</a>
+      <a href="#" class="nav-item">Servicios</a>
+      <a href="#" class="nav-item">Portfolio</a>
+      <a href="#" class="nav-item">Contacto</a>
+    </nav>
+    <section class="content">
+      <p class="text-content">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga facere
+        non nemo iure aliquid dolorum temporibus dolores autem, sunt eum
+        reprehenderit modi fugit magni rem tenetur eaque adipisci sed harum.
+      </p>
+      <p class="text-content">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente
+        architecto alias fugiat quam nihil. Voluptates nulla non nam iure vel
+        est saepe quae explicabo cum. Accusamus optio maiores ipsam officia!
+        Repellendus, obcaecati voluptas! Sapiente accusantium ducimus
+        perspiciatis libero tempore tempora in, distinctio nulla quo accusamus
+        possimus molestias quam quaerat natus quos aperiam illo officiis
+        suscipit soluta commodi ea ipsa mollitia. Rerum nobis esse unde ratione,
+        dolorum placeat corrupti pariatur hic exercitationem quas ea consequatur
+        nulla, enim dolor mollitia porro, molestias quibusdam maxime eaque.
+        Reprehenderit perferendis qui aspernatur laudantium nulla accusantium.
+        Incidunt, minima! Et odio labore praesentium asperiores, eum qui nulla
+        molestias unde, ducimus quia corrupti temporibus laudantium quisquam
+        delectus ut consequatur aut quas omnis repellendus eius ad perferendis!
+        Nesciunt, nostrum. Ducimus veniam suscipit excepturi culpa maxime,
+        fugiat magnam eius similique eos consequuntur laudantium cum ullam
+        doloribus minima facilis nihil, debitis cumque voluptates vero minus
+        tenetur repellendus incidunt! Non, veniam mollitia! Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Assumenda et, totam dolor
+        praesentium distinctio reprehenderit. Assumenda sequi maiores quae.
+        Corporis, libero velit. Consequatur repellat quam eveniet reprehenderit
+        mollitia, nulla provident! Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Voluptates doloribus, veniam atque hic ratione magnam
+        quae. Libero error amet quo nisi beatae est. Molestias expedita
+        consequatur, voluptas laborum illo fuga? Numquam possimus et quidem
+        exercitationem dignissimos officia! Quasi, quam explicabo quo
+        perspiciatis sequi possimus maiores fugit molestiae voluptas doloremque
+        nostrum placeat soluta ratione numquam repellendus corrupti dolore
+        tempora, suscipit officiis. Inventore officiis, expedita a voluptatibus
+        quod assumenda cumque similique aspernatur suscipit sunt consequuntur
+        ea, incidunt dolorem amet recusandae? Optio doloribus in dolore magnam
+        iusto cupiditate? Impedit architecto fugiat fuga saepe.
+      </p>
+    </section>
+  </body>
+</html>

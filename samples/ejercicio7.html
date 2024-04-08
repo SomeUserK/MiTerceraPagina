@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios n3</title>
+    <link rel="stylesheet" href="./css/root.css" />
+    <style>
+      #container {
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        border: 2px solid blue;
+        background-color: lightblue;
+        margin: 10px;
+
+        transition: background-color 0.3s, transform 0.4s;
+      }
+
+      .box:hover {
+        background-color: lightgreen;
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <main id="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </main>
+    <p id="goback"><a href="../">Volver</a></p>
+  </body>
+</html>
