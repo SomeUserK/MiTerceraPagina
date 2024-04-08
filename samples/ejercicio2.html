@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios n3</title>
+    <link rel="stylesheet" href="./css/root.css" />
+    <style>
+      #container {
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        margin: 15px;
+        /* padding: 20px; */
+        background-color: lightblue;
+      }
+
+      .solid-box {
+        border: 2px solid blue;
+      }
+
+      .dotted-box {
+        border: 2px dotted green;
+      }
+
+      .rounded-box {
+        /* border: 2px solid transparent; */
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="container">
+      <div id="box1" class="box solid-box"><p>Solid Border</p></div>
+      <div id="box2" class="box dotted-box"><p>Dotted Border</p></div>
+      <div id="box3" class="box rounded-box"><p>Rounded Corners</p></div>
+    </main>
+    <p id="goback"><a href="../">Volver</a></p>
+  </body>
+</html>
